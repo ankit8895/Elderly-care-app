@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
+import MeditationPage from './pages/MeditationPage';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <main className='container'>
         <Routes>
           <Route path='/' element={<HomePage />} />
+          <Route path='/meditation' element={<MeditationPage />} />
         </Routes>
       </main>
     </Router>
