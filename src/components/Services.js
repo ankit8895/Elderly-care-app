@@ -8,7 +8,10 @@ import serviceData from '../assets/animation/service.json';
 const Services = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
   return (
-    <div className='bg-gradient-to-b from-white to-white w-full py-14' id=''>
+    <div
+      className='bg-gradient-to-b from-white to-white w-full py-14'
+      id='services'
+    >
       <div className='max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center'>
         <div className='flex flex-col w-full'>
           <ScrollAnimationWrapper>
@@ -70,7 +73,7 @@ const Services = () => {
                   Memory Aid
                 </p>
                 <div className='flex flex-col w-full justify-center mb-8 flex-none mt-12'>
-                  <a href='/' className='decoration-0'>
+                  <a href='/memory-aid' className='decoration-0'>
                     <button className='font-medium tracking-wide py-2 px-5 sm:px-8 border border-teal-500 text-teal-500 bg-white outline-none rounded-l-full rounded-r-full capitalize hover:bg-teal-500 hover:text-white transition-all hover:shadow-teal-500'>
                       Select
                     </button>
@@ -93,7 +96,7 @@ const Services = () => {
                   <Lottie animationData={serviceData} />
                 </div>
                 <p className='text-lg text-black-600 font-medium capitalize my-2 sm:my-7'>
-                  Emergency Alert
+                  Meal Planner
                 </p>
                 <div className='flex flex-col w-full justify-center mb-8 flex-none mt-12'>
                   <a href='/' className='decoration-0'>

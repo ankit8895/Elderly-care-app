@@ -22,7 +22,7 @@ const Hero = () => {
               Your Trusted Companion for Personalized Elderly Care Solutions and
               Holistic Approach to Elderly Care Tailored Just for Them
             </p>
-            <a href='/' className='decoration-0'>
+            <a href='#services' className='decoration-0'>
               <button className='py-3 lg:py-4 px-12 lg:px-16 text-white font-semibold rounded-lg bg-teal-500 hover:shadow-teal-500 transition-all outline-none'>
                 Get Started
               </button>

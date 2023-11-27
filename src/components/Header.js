@@ -26,6 +26,11 @@ const Header = () => {
             />
             <strong>WiseGuardian</strong>
           </div>
+          <div className='col-start-10 col-end-12 font-medium flex justify-end items-center'>
+            <button className='font-medium tracking-wide py-2 px-5 sm:px-8 border border-red-500 outline-none rounded-l-full rounded-r-full capitalize bg-red-500 text-white transition-all hover:shadow-red-100'>
+              Emergency Alert
+            </button>
+          </div>
         </nav>
       </header>
     </>

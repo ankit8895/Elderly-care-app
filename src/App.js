@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
 import MeditationPage from './pages/MeditationPage';
+import MemoryAidPage from './pages/MemoryAidPage';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/meditation' element={<MeditationPage />} />
+          <Route path='/memory-aid' element={<MemoryAidPage />} />
         </Routes>
       </main>
     </Router>
