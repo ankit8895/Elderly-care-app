@@ -4,15 +4,17 @@
 
 The purpose of an Elderly Care web application called `WiseGuardian` is to enhance the well-being, safety, and overall quality of life for seniors. By focusing on various purposes,     `WiseGuardian` can contribute significantly to the well-being and care of the elderly population, fostering a sense of connection, security, and support. Here are key purposes and goals that such an application may aim to achieve:
 
-![Screenshot Capture - 2023-11-28 - 04-28-45](https://github.com/ankit8895/Elderly-care-app/assets/125978383/b5f2e3b8-4cf0-420c-9a66-81740d1396ca)
+![FireShot Pro Webpage Capture 004 - 'WiseGuardian' - main--wise-guardian netlify app](https://github.com/ankit8895/Elderly-care-app/assets/125978383/2dad9ef4-ab87-45ef-8dd2-3e6a5839cb1f)
+
+![FireShot Pro Webpage Capture 005 - 'WiseGuardian' - main--wise-guardian netlify app](https://github.com/ankit8895/Elderly-care-app/assets/125978383/82f737ab-a947-4a2d-b8c2-f9867bfc569e)
 
 
-* ### Meditation Section:
+* ### Meditation Guide:
     - A mindfulness and meditation app that can help reduce stress and anxiety, and improve her overall well-being.
     - Provide guided meditation sessions tailored for seniors to help reduce stress and promote relaxation.
     - Include calming visualizations and soothing sounds to create a serene atmosphere.
 
-![Screenshot Capture - 2023-11-28 - 04-30-58](https://github.com/ankit8895/Elderly-care-app/assets/125978383/de389cba-6016-44a8-9376-bdb740422983)
+![FireShot Pro Webpage Capture 006 - 'WiseGuardian' - main--wise-guardian netlify app](https://github.com/ankit8895/Elderly-care-app/assets/125978383/3da42bb0-5f29-4a28-9f18-6e919084a603)
 
 
 * ### Memory Aid
@@ -20,14 +22,21 @@ The purpose of an Elderly Care web application called `WiseGuardian` is to enhan
     - Enable seamless communication and collaboration among caregivers, healthcare professionals, and family members.
     - Maintain a centralized platform for sharing important health information and care plans.
 
-![Screenshot Capture - 2023-11-28 - 04-39-03](https://github.com/ankit8895/Elderly-care-app/assets/125978383/818136a2-f3cd-4e20-9ec0-d02f30f12147)
+![FireShot Pro Webpage Capture 007 - 'WiseGuardian' - main--wise-guardian netlify app](https://github.com/ankit8895/Elderly-care-app/assets/125978383/18f33164-72b7-4211-b3ac-579689f1aa51)
+
+
+* ### AI-Powered Meal Planner
+    - Utilize AI algorithms to create personalized meal plans based on the individual health needs, dietary restrictions, and preferences of each senior user.
+    - Allow users to seamlessly integrate their meal plans with a grocery shopping list, making it convenient for caregivers or seniors themselves to prepare meals.
+    - Include recipe suggestions for each meal with step-by-step cooking instructions.'
+
+![FireShot Pro Webpage Capture 008 - 'WiseGuardian' - main--wise-guardian netlify app](https://github.com/ankit8895/Elderly-care-app/assets/125978383/c0eacd21-5b16-4fcc-bb2b-eb7e1c72b183)
 
 
 * ### Emergency Alert Button
     - Implement features like emergency alerts and notifications for caregivers.
     - Include GPS tracking or location services for quick response in case of emergencies.
 
-![Screenshot Capture - 2023-11-28 - 04-29-28](https://github.com/ankit8895/Elderly-care-app/assets/125978383/7f830b32-d657-4b82-9065-127891d3bdd9)
 
 
 ## Tech Stack used for the project:
