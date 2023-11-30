@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [scrollActive, setScrollActive] = useState(false);
+  const location = useLocation();
+  const currentLocation = location.pathname;
   useEffect(() => {
     window.addEventListener('scroll', () => {
       setScrollActive(window.scrollY > 20);
@@ -27,6 +30,15 @@ const Header = () => {
             <strong>WiseGuardian</strong>
           </div>
           <div className='col-start-10 col-end-12 font-medium flex justify-end items-center'>
+            {currentLocation === '/' && (
+              <a
+                className='text-black mx-2 sm:mx-4 capitalize tracking-wide hover:text-teal-500 transition-all'
+                href='/'
+              >
+                Login In
+              </a>
+            )}
+
             <button className='font-medium tracking-wide py-2 px-5 sm:px-8 border border-red-500 outline-none rounded-l-full rounded-r-full capitalize bg-red-500 text-white transition-all hover:shadow-red-100'>
               Emergency Alert
             </button>

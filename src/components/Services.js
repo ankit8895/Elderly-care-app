@@ -99,7 +99,7 @@ const Services = () => {
                   Meal Planner
                 </p>
                 <div className='flex flex-col w-full justify-center mb-8 flex-none mt-12'>
-                  <a href='/' className='decoration-0'>
+                  <a href='/meal-planner' className='decoration-0'>
                     <button className='font-medium tracking-wide py-2 px-5 sm:px-8 border border-teal-500 text-teal-500 bg-white outline-none rounded-l-full rounded-r-full capitalize hover:bg-teal-500 hover:text-white transition-all hover:shadow-teal-500'>
                       Select
                     </button>
